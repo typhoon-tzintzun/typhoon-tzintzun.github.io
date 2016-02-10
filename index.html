@@ -10,11 +10,12 @@
     <link rel="stylesheet" href="bootstrap/css/custom.css">
     <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css">
     <link rel="icon" type="image/png" href="favicomatic/favicon-32x32.png" sizes="32x32" />
-    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lobster|Karla:400,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lobster|Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
   </head>
   <body>
+<!-- header -->
     <header>
+<!-- navbar -->
       <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
@@ -52,11 +53,11 @@
         </div>
       </nav>
     </header>
-
+<!-- maint text and intro -->
     <main>
-      <div id="main" class="col-lg-12" style="background-image: url(gorge.jpg); background-size: cover; margin-bottom:10px;">
+      <div id="main" class="col-lg-12">
         <div class="row">
-          <div class="col-lg-8 row-centered col-centered">
+          <div class="col-lg-8 row-centered col-centered" id="intro">
             <section>
               <h1>WELCOME, bow before caesar</h1>
               <br>
@@ -66,10 +67,55 @@
               WELCOME EtcWELCOME EtcWELCOME EtcWELCOME EtcWELCOME EtcWELCOME Etc
               WELCOME EtcWELCOME EtcWELCOME Etc
               </p>
+              <br>
+              <p>Now is the winter of our discontent
+                Made glorious summer by this sun of York;
+                And all the clouds that lour'd upon our house
+                In the deep bosom of the ocean buried.
+                Now are our brows bound with victorious wreaths;
+                Our bruised arms hung up for monuments;
+                Our stern alarums changed to merry meetings,
+                Our dreadful marches to delightful measures.
+                Grim-visaged war hath smooth'd his wrinkled front;
+                And now, instead of mounting barded steeds
+                To fright the souls of fearful adversaries,
+                He capers nimbly in a lady's chamber
+                To the lascivious pleasing of a lute.
+                But I, that am not shaped for sportive tricks,
+                Nor made to court an amorous looking-glass;
+                I, that am rudely stamp'd, and want love's majesty
+                To strut before a wanton ambling nymph;
+                I, that am curtail'd of this fair proportion,
+                Cheated of feature by dissembling nature,
+                Deformed, unfinish'd, sent before my time
+                Into this breathing world, scarce half made up,
+                And that so lamely and unfashionable
+                That dogs bark at me as I halt by them;
+                Why, I, in this weak piping time of peace,
+                Have no delight to pass away the time,
+                Unless to spy my shadow in the sun
+                And descant on mine own deformity:
+                And therefore, since I cannot prove a lover,
+                To entertain these fair well-spoken days,
+                I am determined to prove a villain
+                And hate the idle pleasures of these days.
+                Plots have I laid, inductions dangerous,
+                By drunken prophecies, libels and dreams,
+                To set my brother Clarence and the king
+                In deadly hate the one against the other:
+                And if King Edward be as true and just
+                As I am subtle, false and treacherous,
+                This day should Clarence closely be mew'd up,
+                About a prophecy, which says that 'G'
+                Of Edward's heirs the murderer shall be.
+                Dive, thoughts, down to my soul: here
+                Clarence comes.
+                </p>
             </section>
           </div>
         </div>
       </div>
+<!-- videos -->
       <div class="container" id="features">
         <div class="row">
           <div class="col-sm-6 col-md-4">
@@ -80,7 +126,15 @@
               <div class="caption row-centered">
                 <h3>This song is fire</h3>
                 <p>Seriously i like this song</p>
-                <p><a href="#" class="btn btn-lg btn-primary" role="button"><span class="glyphicon glyphicon-music"></span> RTJ!</a></p>
+                <!-- double button -->
+                <p>
+                  <a href="http://www.runthejewels.net/" class="btn btn-default" role="button">
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-fire fa-stack-2x"></i>
+                      <i class="fa fa-music fa-stack-1x"></i>
+                    </span> RTJ!
+                  </a>
+                </p>
               </div>
             </div>
           </div>
@@ -92,7 +146,14 @@
               <div class="caption row-centered">
                 <h3>This sandwich looks amazing</h3>
                 <p>I dont think i can afford filet mignon though</p>
-                <p><a href="#" class="btn btn-lg btn-primary" role="button"><span class="glyphicon glyphicon-cutlery"></span> Tasty</a></p>
+                <p>
+                  <a href="#" class="btn btn-default" role="button">
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-heart-o fa-stack-2x"></i>
+                      <i class="fa fa-cutlery fa-stack-1x"></i>
+                    </span> Tasty
+                  </a>
+                </p>
               </div>
             </div>
           </div>
@@ -104,18 +165,27 @@
               <div class="caption row-centered">
                 <h3>Weirdly Relaxing</h3>
                 <p>how much would one cost?</p>
-                <p><a href="#" class="btn btn-lg btn-primary" role="button"><span class="glyphicon glyphicon-eye-open"></span> Ethereal</a></p>
+                <p>
+                  <a href="#" class="btn btn-default" role="button">
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-puzzle-piece fa-stack-2x"></i>
+                      <i class="fa fa-pencil-square fa-stack-1x"></i>
+                    </span> Ethereal
+                  </a>
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
+<!-- Call to action text -->
       <div class="container">
         <div id="secondary" class="row row-centered">
           <section>
             <h3>You are awesome so are we</h3>
             <p>You are awesome so are we</p>
           </section>
+<!-- Social Media buttons -->
           <table id="connect" class="center-table">
             <tr>
               <th colspan="3" class="row-centered">connect with us</th>
@@ -128,14 +198,16 @@
           </table>
         </div>
       </div>
-      <div class="col-lg-12 container" id="testimonials-background">
+<!-- Carousel title -->
+      <div class="container-fluid" id="testimonials-background">
         <div id="testimonials">
           <section>
-            <div class="container">
+            <div id="carousel-top">
               <div class="row row-centered">
                 <h4>Loot at these happy customers</h4>
               </div>
             </div>
+<!-- Carousel -->
             <div id="carousel-example" class="carousel slide" data-ride="carousel">
             <!-- Wrapper for slides -->
               <div class="row">
@@ -181,7 +253,7 @@
         </div>
       </div>
     </main>
-
+<!-- Footer -->
     <footer>
       <div class="container">
         <div class="row row-centered">
